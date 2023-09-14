@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="listenersutility.IAnnotationRetryTransformerListener"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Aniket/IdeaProjects/edureka">
+        <classes>
+            <class name="testclasses.JobRoleTest">
+                <methods>
+                    <include name="verifyDropdownOfJobRole"/>
+                </methods>
+            </class>
+            <class name="testclasses.LoginTest">
+                <methods>
+                    <include name="verifyLoginWithValidUserNameAndValidPassword"/>
+                </methods>
+            </class>
+            <class name="testclasses.OtherFilterTest">
+                <methods>
+                    <include name="verifyFilter"/>
+                </methods>
+            </class>
+            <class name="testclasses.SearchCourseTest">
+                <methods>
+                    <include name="verifySearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T22:20:58 IST" name="All Test Suite" finished-at="2023-09-13T22:22:52 IST" duration-ms="113826">
+    <groups>
+    </groups>
+    <test started-at="2023-09-13T22:20:58 IST" name="C:/Users/Aniket/IdeaProjects/edureka" finished-at="2023-09-13T22:22:52 IST" duration-ms="113826">
+      <class name="testclasses.SearchCourseTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testclasses.SearchCourseTest@1649b0e6]" started-at="2023-09-13T22:22:20 IST" name="beforeMethod" finished-at="2023-09-13T22:22:38 IST" duration-ms="18359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearch()[pri:4, instance:testclasses.SearchCourseTest@1649b0e6]" started-at="2023-09-13T22:22:38 IST" name="verifySearch" description="click on search bar enter the course name and select course from recomended option" finished-at="2023-09-13T22:22:52 IST" duration-ms="13627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+      </class> <!-- testclasses.SearchCourseTest -->
+      <class name="testclasses.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testclasses.LoginTest@366647c2]" started-at="2023-09-13T22:21:30 IST" name="beforeMethod" finished-at="2023-09-13T22:21:52 IST" duration-ms="22085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLoginWithValidUserNameAndValidPassword()[pri:1, instance:testclasses.LoginTest@366647c2]" started-at="2023-09-13T22:21:52 IST" name="verifyLoginWithValidUserNameAndValidPassword" description="verify login with valid username and password" finished-at="2023-09-13T22:21:55 IST" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUserNameAndValidPassword -->
+      </class> <!-- testclasses.LoginTest -->
+      <class name="testclasses.JobRoleTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testclasses.JobRoleTest@37f1104d]" started-at="2023-09-13T22:20:58 IST" name="beforeMethod" finished-at="2023-09-13T22:21:26 IST" duration-ms="27470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDropdownOfJobRole()[pri:2, instance:testclasses.JobRoleTest@37f1104d]" started-at="2023-09-13T22:21:26 IST" name="verifyDropdownOfJobRole" description="Click On Job Role Dropdown And Select The Option" finished-at="2023-09-13T22:21:30 IST" duration-ms="4434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownOfJobRole -->
+      </class> <!-- testclasses.JobRoleTest -->
+      <class name="testclasses.OtherFilterTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testclasses.OtherFilterTest@6a6afff2]" started-at="2023-09-13T22:21:55 IST" name="beforeMethod" finished-at="2023-09-13T22:22:12 IST" duration-ms="17219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyFilter()[pri:3, instance:testclasses.OtherFilterTest@6a6afff2]" started-at="2023-09-13T22:22:12 IST" name="verifyFilter" description="click on other filter dropdown select training type batch type and click on apply" finished-at="2023-09-13T22:22:20 IST" duration-ms="7725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilter -->
+      </class> <!-- testclasses.OtherFilterTest -->
+    </test> <!-- C:/Users/Aniket/IdeaProjects/edureka -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
